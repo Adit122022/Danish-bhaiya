@@ -4,7 +4,7 @@ const Page1 = ({data}) => {
   return (
     <div className='w-full h-screen flex justify-center items-center'>
 <div className=''>
-{data.map((e,inx)=>{
+{data.map((e)=>{
         return <h1 className='text-4xl font-extrabold font-serif'>{e.name} </h1>
 
     })}
